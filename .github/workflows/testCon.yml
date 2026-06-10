@@ -39,4 +39,4 @@ jobs:
       uses: docker/build-push-action@v7
       with:
         push: true
-        tags: ghcr.io/ldiaztec/CITestPy:latest
+        tags: ghcr.io/ldiaztec/citestpy:latest
