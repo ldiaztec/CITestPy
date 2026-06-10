@@ -23,6 +23,9 @@ jobs:
         python-version: "3.10"
     - name: Install dependencies
       run: pip install -r requirements.txt;
-    - name: Test with pytest
+    - name: Testeando con pytest
       working-directory: src
       run: pytest test.py
+    - name: Verificando con ruff
+      working-directory: src
+      run: ruff check .
